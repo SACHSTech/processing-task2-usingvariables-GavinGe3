@@ -8,7 +8,7 @@ public class Sketch extends PApplet {
    */
   public void settings() {
 	// put your size call here
-    size(600, 600);
+    size(800, 800);
   }
 
   /** 
@@ -31,31 +31,30 @@ public class Sketch extends PApplet {
     // Draw background bamboo
     fill(181, 211, 61);
     rect( (float) (width/20), 0, (float) (width/13.33), height);
-    rect( (float)(width/3.75), 0, 45, 600);
-    rect(280, 0, 45, 600);
-    rect(400, 0, 45, 600);
-    rect(520, 0, 45, 600);
+    rect( (float)(width/3.75), 0, (float) (width/13.33), height);
+    rect( (float) (width/2.1428), 0, (float) (width/13.33), height);
+    rect( (float) (width/1.5), 0, (float) (width/13.33), height);
+    rect( (float) (width/1.1538), 0, (float) (width/13.33), height);
     
     // Left side bamboo lines
-    line(30, 100, 75, 110);
-    line(30, 250, 75, 230);
-    line(30, 400, 75, 420);
-    line(30, 550, 75, 570);
+    line((float) (width/20), (float) (height/6), (float) (width/8), (float) (height/5.454545));
+    line((float) (width/20), (float) (height/2.4), (float) (width/8), (float) (height/2.6086));
+    line((float) (width/20), (float) (height/1.5), (float) (width/8), (float) (height/1.42857));
+    line((float) (width/20), (float) (height/1.09090909), (float) (width/8), (float) (height/1.05263));
 
     // right side bamboo lines
-    line(520, 100, 565, 90);
-    line(520, 260, 565, 245);
-    line(520, 410, 565, 425);
-    line(520, 545, 565, 540);
+    line((float) (width/1.153846), (float) (height/6), (float) (width/1.061946), (float) (height/6.6666));
+    line((float) (width/1.153846), (float) (height/2.30769), (float) (width/1.061946), (float) (height/2.448));
+    line((float) (width/1.153846), (float) (height/1.46341), (float) (width/1.061946), (float) (height/1.411764));
+    line((float) (width/1.153846), (float) (height/1.10091), (float) (width/1.061946), (float) (height/1.11111));
 
     // central bamboo lines
-    line(160, 50, 205, 65);
-    line(280, 55, 325, 58);
-    line(400, 44, 445, 28);
-
-    line(160, 501, 205, 491);
-    line(280, 550, 325, 557);
-    line(400, 510, 445, 530);
+    line((float) (width/3.75), (float) (height/20), (float) (width/2.9268), (float) (height/9.23076));
+    line((float) (width/2.1428), (float) (height/10.90909), (float) (width/1.84615), (float) (height/10.34482));
+    line((float) (width/1.5), (float) (height/13.636363), (float) (width/1.3483), (float) (height/21.42857));
+    line((float) (width/3.75), (float) (height/1.1976), (float) (width/2.92682), (float) (height/1.22199));
+    line((float) (width/2.1428), (float) (height/1.09090909), (float) (width/1.84615), (float) (height/1.07719));
+    line((float) (width/1.5), (float) (height/1.1764), (float) (width/1.3483), (float) (width/1.1320754));
 
     // Draw panda ears
     fill(0, 0, 0);
