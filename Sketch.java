@@ -8,7 +8,7 @@ public class Sketch extends PApplet {
    */
   public void settings() {
 	// put your size call here
-    size(800, 800);
+    size(1720, 1720);
   }
 
   /** 
@@ -58,42 +58,42 @@ public class Sketch extends PApplet {
 
     // Draw panda ears
     fill(0, 0, 0);
-    arc(175, 180, 200, 200, radians(135), radians(320), OPEN);
-    arc(425, 180, 200, 200, radians(220), radians(405), OPEN);
+    arc((float) (width/3.42857), (float) (height/3.33), (float) (width/3), (float) (height/3), radians(135), radians(320), OPEN);
+    arc((float) (width/1.41176), (float) (height/3.33), (float) (width/3), (float) (height/3), radians(220), radians(405), OPEN);
 
     // Draw panda face
     fill(255, 255, 255);
-    ellipse(300, 300, 450, 375);  
+    ellipse((float) (width/2), (float) (height/2), (float) (width/1.333), (float) (height/1.6));  
     
     // Draw Panda Eyes
     fill(0, 0, 0);
 
-    arc(200, 285, 150, 150, radians(149), radians(301), OPEN);
-    arc(175, 260, 150, 150, radians(-32), radians(122), OPEN);
+    arc((float) (width/3), (float) (height/2.10526), (float) (width/4), (float) (height/4), radians(149), radians(301), OPEN);
+    arc((float) (width/3.42857), (float) (height/2.30769), (float) (width/4), (float) (height/4), radians(-32), radians(122), OPEN);
 
-    arc(400, 285, 150, 150, radians(239), radians(391), OPEN);
-    arc(425, 260, 150, 150, radians(58), radians(212), OPEN);
+    arc((float) (width/1.5), (float) (height/2.10526), (float) (width/4), (float) (height/4), radians(239), radians(391), OPEN);
+    arc((float) (width/1.41176), (float) (height/2.30769), (float) (width/4), (float) (height/4), radians(58), radians(212), OPEN);
 
     fill(255, 255, 255);
-    ellipse(210, 252, 30, 30);
-    ellipse(390, 252, 30, 30);
+    ellipse((float) (width/2.85714), (float) (height/2.38095), (float) (width/20), (float) (height/20));
+    ellipse((float) (width/1.53846), (float) (height/2.38095), (float) (width/20), (float) (height/20));
 
     // Draw panda nose
     fill(0, 0, 0);
-    ellipse(300, 375, 75, 40);
+    ellipse((float) (width/2), (float) (height/1.6), (float) (width/8), (float) (height/15));
 
     // Draw Cheeks
     fill(247, 202, 213);
     strokeWeight(0);
-    ellipse(165, 380, 60, 35);
-    ellipse(435, 380, 60, 35);
+    ellipse((float) (width/3.63636363), (float) (height/1.57894), (float) (width/10), (float) (height/17.14285));
+    ellipse((float) (width/1.37931), (float) (height/1.57894), (float) (width/10), (float) (height/17.14285));
 
     // Draw "Whiskers"
     strokeWeight(8);
-    line(300, 375, 300, 405);
+    line((float) (width/2), (float) (height/1.6), (float) (width/2), (float) (height/1.481481));
     noFill();
-    arc(275, 405, 50, 40, 0, radians(135));
-    arc(325, 405, 50, 40, radians(45), radians(180));  
+    arc((float) (width/2.181818), (float) (height/1.481481), (float) (width/12), (float) (height/15), 0, radians(135));
+    arc((float) (width/1.84615), (float) (height/1.481481), (float) (width/12), (float) (height/15), radians(45), radians(180));  
   }
   
   // define other methods down here.
