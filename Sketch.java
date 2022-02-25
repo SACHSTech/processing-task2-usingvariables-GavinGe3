@@ -10,7 +10,7 @@ public class Sketch extends PApplet {
   public void settings() {
 
     // set window size
-    size(800, 800);
+    size(1200, 800);
   }
  
   public void setup() {
@@ -50,7 +50,7 @@ public class Sketch extends PApplet {
     line((float) (width / 1.5), (float) (height / 13.636363), (float) (width / 1.3483), (float) (height / 21.42857));
     line((float) (width / 3.75), (float) (height / 1.1976), (float) (width / 2.92682), (float) (height / 1.22199));
     line((float) (width / 2.1428), (float) (height / 1.09090909), (float) (width / 1.84615), (float) (height / 1.07719));
-    line((float) (width / 1.5), (float) (height / 1.1764), (float) (width / 1.3483), (float) (width / 1.1320754));
+    line((float) (width / 1.5), (float) (height / 1.1764), (float) (width / 1.3483), (float) (height / 1.1320754));
 
     // Draw panda ears
     fill(0, 0, 0);
