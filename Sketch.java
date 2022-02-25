@@ -8,16 +8,18 @@ public class Sketch extends PApplet {
    */
 
   public void settings() {
-	
+    
+    // set window size
     size(800, 800);
   }
  
   public void setup() {
+
     // Set background to dark green
     background(91, 153, 74);
   }
   public void draw() {
-	  
+
     // Set initial stroke weight  
     strokeWeight(4);
     
