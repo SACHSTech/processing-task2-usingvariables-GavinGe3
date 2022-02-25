@@ -38,13 +38,13 @@ public class Sketch extends PApplet {
     line(width / 20, (float) (height / 1.5), width / 8, (float) (height / 1.42857));
     line(width / 20, (float) (height / 1.09090909), width / 8, (float) (height / 1.05263));
 
-    // right side bamboo lines
+    // Right side bamboo lines
     line((float) (width / 1.153846), height / 6, (float) (width / 1.061946), (float) (height / 6.6666));
     line((float) (width / 1.153846), (float) (height / 2.30769), (float) (width / 1.061946), (float) (height / 2.448));
     line((float) (width / 1.153846), (float) (height / 1.46341), (float) (width / 1.061946), (float) (height / 1.411764));
     line((float) (width / 1.153846), (float) (height / 1.10091), (float) (width / 1.061946), (float) (height / 1.11111));
 
-    // central bamboo lines
+    // Central bamboo lines
     line((float) (width / 3.75), height / 20, (float) (width / 2.9268), (float) (height / 9.23076));
     line((float) (width / 2.1428), (float) (height / 10.90909), (float) (width / 1.84615), (float) (height / 10.34482));
     line((float) (width / 1.5), (float) (height / 13.636363), (float) (width / 1.3483), (float) (height / 21.42857));
@@ -85,7 +85,7 @@ public class Sketch extends PApplet {
 
     // Draw "Whiskers"
     strokeWeight(8);
-    line(width / 2, (float) (height/1.6), width / 2, (float) (height/1.481481));
+    line(width / 2, (float) (height / 1.6), width / 2, (float) (height / 1.481481));
     noFill();
     arc((float) (width / 2.181818), (float) (height / 1.481481), width / 12, height / 15, 0, radians(135));
     arc((float) (width / 1.84615), (float) (height / 1.481481), width / 12, height / 15, radians(45), radians(180));  
