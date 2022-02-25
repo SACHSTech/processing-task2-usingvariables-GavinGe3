@@ -1,14 +1,14 @@
 import processing.core.PApplet;
 
-public class Sketch extends PApplet {
-	
-  /**
+ /**
    * This program draws a panda
    * @author: G. Ge
    */
 
+public class Sketch extends PApplet {
+	
   public void settings() {
-    
+
     // set window size
     size(800, 800);
   }
@@ -18,6 +18,7 @@ public class Sketch extends PApplet {
     // Set background to dark green
     background(91, 153, 74);
   }
+
   public void draw() {
 
     // Set initial stroke weight  
